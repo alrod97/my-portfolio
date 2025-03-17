@@ -21,7 +21,7 @@ const ProjectsSection = () => {
             <a href="#cupra-vision-pro" className="block">
               <div className="mb-4 overflow-hidden rounded-lg">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D4D2DAQG8zXcZE46BdQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733381023339?e=1742126400&v=beta&t=lT66JfkkvihOt3806uKbSzBmKRhgKVeDlGo3LSRcNW8" 
+                  src="https://media.licdn.com/dms/image/v2/D4D2DAQG8zXcZE46BdQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733381023339?e=1742796000&v=beta&t=drIscN9Mq3FdTSGkMHjVtCGDfnFcRf1uHLtqgQu4nq4" 
                   alt="CUPRA Vision Pro App" 
                   className="w-full h-auto object-cover"
                 />
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
             <a href="#vision-transformers" className="block">
               <div className="mb-4 overflow-hidden rounded-lg">
                 <img 
-                  src="https://media.licdn.com/dms/image/sync/v2/D4D27AQHe3Yo8pmCdwA/articleshare-shrink_800/articleshare-shrink_800/0/1733394364810?e=1742126400&v=beta&t=oUWQEMhVSd4DFaf-cHB6itxHdKIAz4PWH3uGg2kzt5c" 
+                  src="https://media.licdn.com/dms/image/v2/D4D2DAQHiwLAgeEb_tw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733394412294?e=1742796000&v=beta&t=XJXwSVGfU6cDAvGqIRGJuyI2aYHy_bSxJ62rhHIktRw" 
                   alt="Vision Transformer Research" 
                   className="w-full h-auto object-cover"
                 />
