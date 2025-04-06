@@ -21,9 +21,9 @@ const ProjectsSection = () => {
             <a href="#cupra-vision-pro" className="block">
               <div className="mb-4 overflow-hidden rounded-lg">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D4D2DAQG8zXcZE46BdQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733381023339?e=1742796000&v=beta&t=drIscN9Mq3FdTSGkMHjVtCGDfnFcRf1uHLtqgQu4nq4" 
-                  alt="CUPRA Vision Pro App" 
-                  className="w-full h-auto object-cover"
+               src={`${process.env.PUBLIC_URL}/images/CupraVisionProUsing.jpeg`} 
+                alt="CUPRA Vision Pro App" 
+                //className="w-full h-auto object-cover"
                 />
               </div>
               <div className="text-center">
@@ -38,8 +38,8 @@ const ProjectsSection = () => {
             <a href="#vision-transformers" className="block">
               <div className="mb-4 overflow-hidden rounded-lg">
                 <img 
-                  src="https://media.licdn.com/dms/image/v2/D4D2DAQHiwLAgeEb_tw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733394412294?e=1742796000&v=beta&t=XJXwSVGfU6cDAvGqIRGJuyI2aYHy_bSxJ62rhHIktRw" 
-                  alt="Vision Transformer Research" 
+               src={`${process.env.PUBLIC_URL}/images/cwfa_mainimage.jpeg`} 
+               alt="Vision Transformer Research" 
                   className="w-full h-auto object-cover"
                 />
               </div>

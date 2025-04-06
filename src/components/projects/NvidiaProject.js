@@ -8,7 +8,7 @@ const NvidiaProject = () => {
   const mediaItems = [
   {
     type: 'image',
-    src: "https://media.licdn.com/dms/image/v2/D4D2DAQHiwLAgeEb_tw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733394412294?e=1742796000&v=beta&t=XJXwSVGfU6cDAvGqIRGJuyI2aYHy_bSxJ62rhHIktRw",
+    src: `${process.env.PUBLIC_URL}/images/cwfa_mainimage.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
     alt: "Vision Transformer Research Visualization",
     respectAspectRatio: true // This image will maintain its original aspect ratio
   },

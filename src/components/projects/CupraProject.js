@@ -32,7 +32,7 @@ const CupraProject = () => {
     },
     {
       type: 'image',
-      src: "https://media.licdn.com/dms/image/v2/D4D2CAQEEH26P0BNSew/comment-image-shrink_8192_480/comment-image-shrink_8192_480/0/1721922189779?e=1742162400&v=beta&t=je1Awy86lwxJqf_ShKjT-nlYGE85VCv1LydAlwZV7YE",
+      src: `${process.env.PUBLIC_URL}/images/event.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
       alt: "CUPRA Vision Pro App Image 3"
     }
   ];
