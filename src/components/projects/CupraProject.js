@@ -10,8 +10,9 @@ const CupraProject = () => {
   const mediaItems = [
     {
       type: 'image',
-      src: "https://media.licdn.com/dms/image/v2/D4D22AQHtj4VYqGbMsg/feedshare-shrink_1280/feedshare-shrink_1280/0/1731144875802?e=1744243200&v=beta&t=Bwecra8Cn3N1aAz4P6Je0RQ464yFJ-fxzfardXXiHds",
-      alt: "CUPRA Vision Pro App Image 1"
+      src: `${process.env.PUBLIC_URL}/images/visionProImage.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+      alt: "Vision Transformer Research Visualization",
+      respectAspectRatio: true // This image will maintain its original aspect ratio
     },
     {
       type: 'youtube',
@@ -21,8 +22,9 @@ const CupraProject = () => {
     },
     {
       type: 'image',
-      src: "https://media.licdn.com/dms/image/v2/D4D22AQG09cXk4zPCTQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731144875804?e=1744243200&v=beta&t=SpKdKjs36EfcuKl90mlaIHfA93sU5DiZ0V4CgOOpRYA",
-      alt: "CUPRA Vision Pro App Image 2"
+      src: `${process.env.PUBLIC_URL}/images/usingCupraApp.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+      alt: "Vision Transformer Research Visualization",
+      respectAspectRatio: true // This image will maintain its original aspect ratio
     },
     {
       type: 'youtube',

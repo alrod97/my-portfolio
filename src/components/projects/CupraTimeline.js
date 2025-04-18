@@ -45,12 +45,12 @@ const CupraTimeline = () => {
       description: "Barcelona and Madrid deployment for the CUPRA Terramar launch.",
       images: [
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQEl8nG4AgHrOw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725913846295?e=1744848000&v=beta&t=MtvwnJ-tY48hGqToy7coLWbFl4xfkqg8pDIQNGMfvBc",
-          alt: "CUPRA Terramar Experience 1"
+          url: `${process.env.PUBLIC_URL}/images/terramar_visionPro_2.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         },
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQGxbNLbd92SvQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725362381234?e=1744848000&v=beta&t=TyjRVlZ1NmyBYUnUuQfAM85zDbPHVLLLn2vgJuRtoUc",
-          alt: "CUPRA Terramar Experience 2"
+          url: `${process.env.PUBLIC_URL}/images/terramar_visionPro_1.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         }
       ]
     },
@@ -60,19 +60,17 @@ const CupraTimeline = () => {
       description: "Deployment for VW Branding at AdaLoveLave festival where around 100 people tried out the experience with extremely positive feedback. I WAS LUCKY to also present our product to customers directly.",
       images: [
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQFI0TXGKBmh_Q/feedshare-shrink_1280/feedshare-shrink_1280/0/1731144875679?e=1744848000&v=beta&t=bx45928O9ZcGKbg40mAUfpckIvUC6oiAh1qVZMxUmDE",
-          alt: "AdaLoveLave Festival Experience 1"
+          url: `${process.env.PUBLIC_URL}/images/vwAdaLoveLace_1.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         },
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQG09cXk4zPCTQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731144875804?e=1744848000&v=beta&t=qXZ1WYmVaCnI9tl2a9bnpqM80Mr5K-6D3OI3HAzvXqg",
-          alt: "AdaLoveLave Festival Experience 2"
+          url: `${process.env.PUBLIC_URL}/images/vwAdaLoveLace_2.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         },
-        {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQHtj4VYqGbMsg/feedshare-shrink_1280/feedshare-shrink_1280/0/1731144875802?e=1744848000&v=beta&t=8Znih7OdkmiYtnEtNaEZ23bspRBucZnrF4xPC6Ebl9w",
-          alt: "AdaLoveLave Festival Experience 3"
-        }
+        
       ]
     },
+    
     {
       date: "February 2025",
       title: "Executive Presentation",
@@ -83,17 +81,13 @@ const CupraTimeline = () => {
       },
       images: [
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQEgHL-OYItpzg/feedshare-shrink_2048_1536/B4DZUkjVUnGkAo-/0/1740074998579?e=1744848000&v=beta&t=1uXDVrDKk3Cm3Idzgl6CJB6CDqk35MjbYdqnuU0vMJw",
-          alt: "Executive Presentation 1"
+          url: `${process.env.PUBLIC_URL}/images/executive_presentation_1.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         },
         {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQFjGVW71br9qg/feedshare-shrink_2048_1536/B4DZUkjVV4G8As-/0/1740074999212?e=1744848000&v=beta&t=lTh86hsUebB25qzZhsuqO_HnbHzCwKH4gPUEatK_SbE",
-          alt: "Executive Presentation 2"
+          url: `${process.env.PUBLIC_URL}/images/executive_presentation_2.jpeg`,  // Using absolute path with process.env.PUBLIC_URL
+          alt: "Vision Transformer Research Visualization",
         },
-        {
-          url: "https://media.licdn.com/dms/image/v2/D4D22AQELXJWb5A7tRA/feedshare-shrink_2048_1536/B4DZUkjVWPGcAo-/0/1740075000290?e=1744848000&v=beta&t=1PLO8bUjuv76Z_eqUdaxBGUvU-R9rZaQptRujhY5MWU",
-          alt: "Executive Presentation 3"
-        }
       ]
     }
   ];

@@ -24,6 +24,9 @@ const Navbar = () => {
             <a href="#about" className="px-3 py-2 text-sm text-gray-900 hover:text-gray-600" style={{ fontWeight: '400' }}>
               About
             </a>
+            <a href="#blog" className="px-3 py-2 text-sm text-gray-900 hover:text-gray-600" style={{ fontWeight: '400' }}>
+              Blog
+            </a>
             <a href="#publications" className="px-3 py-2 text-sm text-gray-900 hover:text-gray-600" style={{ fontWeight: '400' }}>
               Publications
             </a>
@@ -63,6 +66,13 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               About
+            </a>
+            <a
+              href="#blog"
+              className="block px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Blog
             </a>
             <a
               href="#publications"

@@ -7,6 +7,7 @@ import ProjectsSection from './components/home/ProjectsSection';
 import CupraProject from './components/projects/CupraProject';
 import NvidiaProject from './components/projects/NvidiaProject';
 import AboutSection from './components/about/AboutSection';
+import BlogSection from './components/blog/BlogSection';
 import PublicationsSection from './components/publications/PublicationsSection';
 import ContactSection from './components/contact/ContactSection';
 
@@ -23,6 +24,7 @@ const App = () => {
       <CupraProject />
       <NvidiaProject />
       <AboutSection />
+      <BlogSection />
       <PublicationsSection />
       <ContactSection />
       <Footer />
@@ -31,7 +33,6 @@ const App = () => {
 };
 
 export default App;
-
 
 
 
