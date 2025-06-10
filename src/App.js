@@ -1,38 +1,28 @@
 // src/App.js
 import React from 'react';
-import Navbar from './components/layout/Navbar';
-import Footer from './components/layout/Footer';
-import HeroSection from './components/home/HeroSection';
-import ProjectsSection from './components/home/ProjectsSection';
-import CupraProject from './components/projects/CupraProject';
-import NvidiaProject from './components/projects/NvidiaProject';
-import AboutSection from './components/about/AboutSection';
-import BlogSection from './components/blog/BlogSection';
-import PublicationsSection from './components/publications/PublicationsSection';
-import ContactSection from './components/contact/ContactSection';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import CupraProjectPage from './pages/CupraProjectPage';
+import NvidiaProjectPage from './pages/NvidiaProjectPage';
+import BlogPostPage from './pages/BlogPostPage';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white font-sans antialiased text-gray-900" style={{ 
-      fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
-      fontWeight: '400',
-      letterSpacing: '-0.015em'
-    }}>
-      <Navbar />
-      <HeroSection />
-      <ProjectsSection />
-      <CupraProject />
-      <NvidiaProject />
-      <AboutSection />
-      <BlogSection />
-      <PublicationsSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-white font-sans antialiased text-gray-900" style={{ 
+        fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
+        fontWeight: '400',
+        letterSpacing: '-0.015em'
+      }}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects/cupra-vision-pro" element={<CupraProjectPage />} />
+          <Route path="/projects/nvidia-research" element={<NvidiaProjectPage />} />
+          <Route path="/blog/:postId" element={<BlogPostPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
 export default App;
-
-
-

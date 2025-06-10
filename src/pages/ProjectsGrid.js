@@ -1,8 +1,8 @@
-// src/components/home/ProjectsSection.js
+// src/components/home/ProjectsGrid.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProjectsSection = () => {
+const ProjectsGrid = () => {
   return (
     <section id="work" className="py-24 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -60,4 +60,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default ProjectsGrid;
