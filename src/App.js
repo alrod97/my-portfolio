@@ -7,8 +7,11 @@ import NvidiaProjectPage from './pages/NvidiaProjectPage';
 import BlogPostPage from './pages/BlogPostPage';
 
 const App = () => {
+  // Set basename for GitHub Pages deployment
+  const basename = process.env.NODE_ENV === 'production' ? '/my-portfolio' : '';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen bg-white font-sans antialiased text-gray-900" style={{ 
         fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
         fontWeight: '400',
