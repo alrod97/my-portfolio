@@ -1,10 +1,31 @@
-// src/components/blog/BlogPreview.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calendar, ArrowRight } from 'lucide-react';
 
 const BlogPreview = () => {
   const posts = [
+    {
+      id: 3,
+      title: "Visiting China in 2025: Tech, Trains, and Perspectives",
+      date: "28.07.2025",
+      excerpt: "In 2025, I had the chance to visit Shanghai, Chongqing, and Beijing. Beyond the stereotypes I had grown up with, I encountered cutting-edge infrastructure, remarkable safety, and a deeply hospitable culture. Here’s what I observed.",
+      mainImage: {
+        url: `${process.env.PUBLIC_URL}/images/shanghai_bund.jpeg`,
+        alt: "View over the skyline of Shanghai at night",
+      },
+      tags: ["China", "Travel", "Technology", "EV", "High-Speed Rail", "AI"]
+    },
+    {
+      id: 2,
+      title: "CUPRA Vision Pro Takes Main Stage at VW Global IT I/O 2025 in Berlin",
+      date: "10.07.2025",
+      excerpt: "Our CUPRA Vision Pro project was selected among the top IT projects at VW Group, earning us the main stage at Global IT I/O 2025 in Berlin. An incredible opportunity to present to colleagues from across the group and connect with IT professionals from Japan to Brazil.",
+      mainImage: {
+        url: `${process.env.PUBLIC_URL}/images/GlobalITIo_2.jpg`,
+        alt: "Presenting CUPRA Vision Pro at VW Global IT I/O 2025 in Berlin",
+      },
+      tags: ["Apple Vision Pro", "CUPRA", "Berlin", "Global IT I/O", "Main Stage"]
+    },
     {
       id: 1,
       title: "Presenting CUPRA Vision Pro at the VW IT Symposium 2025",
@@ -21,20 +42,20 @@ const BlogPreview = () => {
   return (
     <section id="blog" className="py-20 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl mb-12" style={{ 
+        <h2 className="text-3xl mb-12" style={{
           fontWeight: '500',
           letterSpacing: '-0.025em'
         }}>Blog & Updates</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {posts.map((post) => (
-            <div 
-              key={post.id} 
+            <div
+              key={post.id}
               className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-100 transition-all duration-300 hover:shadow-md"
             >
               <div className="relative w-full h-56 overflow-hidden">
-                <img 
-                  src={post.mainImage.url} 
+                <img
+                  src={post.mainImage.url}
                   alt={post.mainImage.alt}
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                 />
@@ -47,8 +68,8 @@ const BlogPreview = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {post.tags.map((tag, index) => (
-                    <span 
-                      key={index} 
+                    <span
+                      key={index}
                       className="px-3 py-1 bg-gray-100 text-gray-700 text-xs rounded-full"
                     >
                       {tag}

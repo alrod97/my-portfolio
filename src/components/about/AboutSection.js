@@ -19,28 +19,30 @@ const AboutSection = () => {
     <span className="text-accent"> Research</span>.
   </h3>
   <p className="text-lg mb-6 max-w-3xl text-gray-700" style={{ lineHeight: '1.6', fontWeight: '400' }}>
-  I'm a <span className="font-semibold text-primary"> Deep Learning & Computer Vision Engineer</span> at 
-  <span className="font-semibold text-primary"> Volkswagen AG</span> in Munich, specializing in
-  <span className="font-semibold text-accent"> AI-driven applications</span> and
-  <span className="font-semibold text-accent"> spatial computing</span> with
-  <span className="font-semibold text-primary">Apple Vision Pro</span>.
+  I'm a <span className="font-semibold text-primary">Deep Learning & Computer Vision Engineer</span> at 
+  <span className="font-semibold text-primary"> Volkswagen AG</span> in Munich, working at the intersection of
+  <span className="font-semibold text-accent"> AI-driven applications</span>,
+  <span className="font-semibold text-accent"> 3D Generative Models</span>, and
+  <span className="font-semibold text-accent"> Virtual & Mixed Reality</span>.
 </p>
 
 <p className="text-lg mb-6 max-w-3xl text-gray-700" style={{ lineHeight: '1.6' }}>
-  My interests include <span className="font-semibold text-accent">Deep Learning</span>,
+  My interests span <span className="font-semibold text-accent">Deep Learning</span>,
   <span className="font-semibold text-accent"> 3D Computer Vision</span>,
   <span className="font-semibold text-accent"> Computer Graphics</span>, and
-  <span className="font-semibold text-accent"> Applied Mathematics</span>. I'm passionate about building
-  <span className="font-semibold text-primary"> innovative products</span> that
-  <span className="font-semibold text-accent"> excite people</span> and deliver
-  <span className="font-semibold text-accent"> real impact</span>.
+  <span className="font-semibold text-accent"> Applied Mathematics</span>. I’m passionate about building
+  <span className="font-semibold text-primary"> forward-looking products</span> that
+  <span className="font-semibold text-accent"> inspire users</span> and deliver
+  <span className="font-semibold text-accent"> tangible impact</span>.
 </p>
 
 <p className="text-lg max-w-3xl text-gray-700" style={{ lineHeight: '1.6', fontWeight: '400' }}>
-  My approach emphasizes <span className="font-semibold text-primary"> practical innovation</span>, turning ambitious ideas into
-  <span className="font-semibold text-accent"> functional</span>,
-  <span className="font-semibold text-primary"> state-of-the-art experiences</span>.
+  My approach blends <span className="font-semibold text-primary">practical innovation</span> with deep technical understanding,
+  bringing <span className="font-semibold text-accent">cutting-edge research</span> in
+  <span className="font-semibold text-primary"> 3D Generative AI</span> to life through
+  <span className="font-semibold text-primary"> real-world immersive applications</span>.
 </p>
+
 
 </div>
 
@@ -54,6 +56,7 @@ const AboutSection = () => {
           <div className="text-gray-600">Volkswagen AG</div>
           <div className="text-gray-500 mb-3">Munich, Germany | 09/2023 - Present</div>
           <ul className="list-disc pl-5 text-sm space-y-1 text-gray-700">
+            <li>Conducted research and fine-tuning of 3D Generative Models for internal design use cases, including model evaluation and performance benchmarking</li>
             <li>Led development of CUPRA's first native Vision OS app for Apple Vision Pro, available on the App Store</li>
             <li>Achieved ~€500K in cost savings while boosting brand visibility through strategic tech implementation</li>
             <li>Developed Channel Wise Feature Augmentation (CWFA) in collaboration with NVIDIA to enhance Vision Transformers</li>

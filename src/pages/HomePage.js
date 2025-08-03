@@ -14,9 +14,9 @@ const HomePage = () => {
     <>
       <Navbar />
       <HeroSection />
-      <ProjectsSection />
-      <AboutSection />
+      <ProjectsSection /> 
       <BlogPreview />
+      <AboutSection />
       <PublicationsSection />
       <ContactSection />
       <Footer />
