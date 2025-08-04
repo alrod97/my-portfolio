@@ -103,7 +103,7 @@ const App = () => {
   const basename = process.env.NODE_ENV === 'production' ? '/my-portfolio' : '';
 
   return (
-    <Router basename={basename}>
+    <Router basename={basename} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-50 font-sans antialiased text-gray-900 overflow-x-hidden" style={{ 
         fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
